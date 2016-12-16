@@ -5,6 +5,7 @@
 !.aliases
 !.gitconfig
 !.gitignore
+!.gitignore_global
 !.vim/
 !.vimrc
 !.zshrc
