@@ -1,0 +1,10 @@
+# Ignore all
+*
+
+# Except for these
+!.aliases
+!.gitconfig
+!.gitignore
+!.vim/
+!.vimrc
+!.zshrc

@@ -1,0 +1,11 @@
+# Alias
+# Environment
+alias hosts='sudo vim /etc/hosts'
+
+# Automate
+alias startmyday='sh ~/Development/terminal/startmyday.sh'
+alias endmyday='sh ~/Development/terminal/endmyday.sh'
+
+# Show/Hide hidden system files
+alias showhidden='sh ~/Development/terminal/showhidden.sh'
+alias hidehidden='sh ~/Development/terminal/hidehidden.sh'

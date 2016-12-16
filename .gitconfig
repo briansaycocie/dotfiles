@@ -1,0 +1,21 @@
+[user]
+        name = Brian Saycocie
+        email = bsaycocie@gmail.com	
+[core]
+        autocrlf = input
+        editor = vim
+[alias]
+        st = status
+        co = checkout
+        br = branch
+        up = rebase
+        ci = commit
+[color]
+        diff = auto
+        status = auto
+        branch = auto
+        interactive = auto
+        ui = true
+        pager = true
+[push]
+        default = simple
