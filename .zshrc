@@ -86,3 +86,6 @@ source $ZSH/oh-my-zsh.sh
 
 # Alias file
 source $HOME/.aliases
+
+# wpdocker
+PATH="${HOME}/Public/wpdocker/bin:$PATH"
