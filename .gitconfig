@@ -4,6 +4,7 @@
 [core]
         autocrlf = input
         editor = vim
+	excludesfile = /Users/brian/.gitignore_global
 [alias]
         st = status
         co = checkout
