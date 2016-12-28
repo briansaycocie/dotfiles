@@ -89,3 +89,6 @@ source $HOME/.aliases
 
 # wpdocker
 PATH="${HOME}/Public/wpdocker/bin:$PATH"
+
+# Yarn
+export PATH="$PATH:`yarn global bin`"
