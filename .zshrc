@@ -88,7 +88,7 @@ source $ZSH/oh-my-zsh.sh
 source $HOME/.aliases
 
 # wpdocker
-PATH="${HOME}/Public/wpdocker/bin:$PATH"
+PATH="${HOME}/Public/dockerbox/bin:$PATH"
 
 # Yarn
 export PATH="$PATH:`yarn global bin`"
