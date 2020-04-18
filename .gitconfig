@@ -1,10 +1,10 @@
 [user]
         name = Brian Saycocie
-        email = bsaycocie@gmail.com	
+        email = hello@bri4n.com
 [core]
         autocrlf = input
         editor = vim
-	excludesfile = /Users/brian/.gitignore_global
+        excludesfile = /Users/brian/.gitignore_global
 [alias]
         st = status
         co = checkout

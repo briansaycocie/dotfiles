@@ -3,9 +3,11 @@
 
 # Except for these
 !.aliases
+!.functions
 !.gitconfig
 !.gitignore
 !.gitignore_global
 !.vim/
 !.vimrc
 !.zshrc
+

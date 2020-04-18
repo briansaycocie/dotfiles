@@ -1,0 +1,4 @@
+# Search and replace db
+function wpdb () {
+    wp search-replace --all-tables --precise --url=$1 $1 $2
+}
