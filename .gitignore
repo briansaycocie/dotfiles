@@ -7,7 +7,7 @@
 !.gitconfig
 !.gitignore
 !.gitignore_global
-!.vim/
+!.vim/colors/
 !.vimrc
 !.zshrc
 
