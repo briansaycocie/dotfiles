@@ -3,3 +3,7 @@
 # Show/Hide hidden system files
 alias showhidden='sh ~/Development/terminal/showhidden.sh'
 alias hidehidden='sh ~/Development/terminal/hidehidden.sh'
+
+# WP-CLI
+alias wp='pilothouse wp'
+
