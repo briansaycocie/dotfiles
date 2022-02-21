@@ -11,6 +11,7 @@
         br = branch
         up = rebase
         ci = commit
+	project-summary = !which onefetch && onefetch
 [color]
         diff = auto
         status = auto
