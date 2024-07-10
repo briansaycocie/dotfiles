@@ -1,3 +1,4 @@
+# Load and initialize the completion system
 autoload -Uz compinit && compinit
 
 # Enable case-insensitive auto-completion
