@@ -1,3 +1,8 @@
+autoload -Uz compinit && compinit
+
+# Enable case-insensitive auto-completion
+zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
+
 # Theme
 fpath+=$HOME/.zsh/pure
 autoload -U promptinit; promptinit
