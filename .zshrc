@@ -19,5 +19,12 @@ fi
 eval "$(fnm env --use-on-cd --shell zsh)"
 
 # pyenv
-PATH=$(pyenv root)/shims:$PATH
+if [ -d "$(pyenv root)/shims" ]; then
+    export PATH="$(pyenv root)/shims:$PATH"
+fi
+
+# openjdk
+if [ -d "/opt/homebrew/opt/openjdk/bin" ]; then
+  export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+fi
 
