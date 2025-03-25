@@ -28,3 +28,9 @@ if [ -d "/opt/homebrew/opt/openjdk/bin" ]; then
   export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 fi
 
+# icloud drive
+alias Downloads='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/Downloads'
+alias Family='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/Family'
+alias Projects='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/Projects'
+
+
