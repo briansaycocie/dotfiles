@@ -33,4 +33,10 @@ alias Downloads='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/Downloads'
 alias Family='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/Family'
 alias Projects='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/Projects'
 
+# codex
+export PATH="$HOME/.vscode/extensions/openai.chatgpt-0.4.19-darwin-arm64/bin/macos-aarch64:$PATH"
 
+export PATH="/Users/brian/Public/foo2zjs:$PATH"
+export PATH="$HOME/bin:$PATH"
+
+. "$HOME/.local/bin/env"
