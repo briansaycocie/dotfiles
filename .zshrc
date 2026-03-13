@@ -40,3 +40,16 @@ export PATH="/Users/brian/Public/foo2zjs:$PATH"
 export PATH="$HOME/bin:$PATH"
 
 . "$HOME/.local/bin/env"
+
+# Private config (secrets, local-only tools) — not in public repo
+[ -f "$HOME/.zshrc.private" ] && source "$HOME/.zshrc.private"
+
+# bun completions
+[ -s "/Users/brian/.bun/_bun" ] && source "/Users/brian/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# Auto-Warpify
+[[ "$-" == *i* ]] && printf 'P$f{"hook": "SourcedRcFileForWarp", "value": { "shell": "zsh", "uname": "Darwin" }}�' 
