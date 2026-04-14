@@ -19,9 +19,9 @@ fi
 eval "$(fnm env --use-on-cd --shell zsh)"
 
 # pyenv
-if [ -d "$(pyenv root)/shims" ]; then
-    export PATH="$(pyenv root)/shims:$PATH"
-fi
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
 
 # openjdk
 if [ -d "/opt/homebrew/opt/openjdk/bin" ]; then
@@ -32,9 +32,6 @@ fi
 alias Downloads='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/Downloads'
 alias Family='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/Family'
 alias Projects='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/Projects'
-
-# codex
-export PATH="$HOME/.vscode/extensions/openai.chatgpt-0.4.19-darwin-arm64/bin/macos-aarch64:$PATH"
 
 export PATH="/Users/brian/Public/foo2zjs:$PATH"
 export PATH="$HOME/bin:$PATH"
@@ -52,4 +49,4 @@ export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
 # Auto-Warpify
-[[ "$-" == *i* ]] && printf 'P$f{"hook": "SourcedRcFileForWarp", "value": { "shell": "zsh", "uname": "Darwin" }}�' 
+[[ "$-" == *i* ]] && printf 'P$f{"hook": "SourcedRcFileForWarp", "value": { "shell": "zsh", "uname": "Darwin" }}�'
